@@ -7,6 +7,7 @@ import 'ordenar_decrescente.dart';
 // Pois o nome da função passada por parâmetro deve estar listada nas funções declaradas
 // export 'arquivo.dart';
 export 'ordenar_decrescente.dart';
+export 'filtrarPares.dart';
 
 // Ela passa por parâmetro uma variável do tipo função com o seu tipo de retorno e parâmetro
 void executarEstrategia(void Function(List<int>) estrategia) {
