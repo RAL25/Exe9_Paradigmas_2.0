@@ -12,6 +12,15 @@ A função `ordenacaoDecrescente` recebe uma lista de inteiros e a ordena do mai
 lista.sort((b, a) => a.compareTo(b));
 ```
 
+## Algoritmo de Ordenação Crescente
+
+### Como Funciona
+
+Este algoritmo ordena uma lista de inteiros percorrendo cada elemento e posicionando-o corretamente entre os elementos já processados. Para cada elemento, ele é comparado com os anteriores e movido para a esquerda enquanto for menor, até encontrar sua posição final.
+
+O código cria uma cópia da lista original para preservar os dados originais, depois aplica dois loops aninhados para realizar as comparações e trocas necessárias.
+
+
 ## Contribuidores
 
 | [@Isaías](https://github.com/isaias-vitor) | [@João Medina](https://github.com/MedinaJv) | [@Rian](https://github.com/RAL25)
