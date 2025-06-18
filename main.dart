@@ -2,5 +2,7 @@
 import 'estrategias/executar_estrategias.dart'; 
 
 void main(){
-    
+    // Executando as estratégias
+    executarEstrategia(ordenacaoDecrescente);
+    print('');  // Espaço visual
 }

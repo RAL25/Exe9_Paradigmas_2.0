@@ -4,7 +4,13 @@ Repositório referente ao exercício 9 da disciplina de Paradigmas de Programaç
 
 [![Linguagem Dart](https://img.shields.io/badge/Linguagem-Dart-%2309afac.svg)](https://dart.dev/docs)
 
+## Explicação sobre as funcionalidades
+### 1. **Ordenação Decrescente**
+A função `ordenacaoDecrescente` recebe uma lista de inteiros e a ordena do maior para o menor, utilizando o método `sort` com uma função de comparação personalizada:
 
+```dart
+lista.sort((b, a) => a.compareTo(b));
+```
 
 ## Contribuidores
 
