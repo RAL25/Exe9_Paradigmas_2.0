@@ -5,4 +5,7 @@ void main(){
     // Executando as estratégias
     executarEstrategia(ordenacaoDecrescente);
     print('');  // Espaço visual
+
+    executarEstrategia(ordenacaoCrescente);
+    print('');  // Espaço visual
 }
